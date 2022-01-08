@@ -1,0 +1,500 @@
+body {
+    margin          : 0;
+    padding         : 0;
+    background-color: rgba(240, 233, 239, 0.822);
+}
+
+.GP {
+    border-right : solid red 2px;
+    border-left  : solid red 2px;
+    padding-left : 12px;
+    padding-right: 12px;
+}
+
+.contact{
+
+background-color: #E86C77;
+font-weight: bold;
+font-family: monospace;
+color: white;
+font-size: 1.2vw;
+margin-top: 7vw;
+padding-top: 2vw;
+height: 6vw;
+}
+
+.mailCon{
+
+    display: flex;
+    margin-left: 28vw;
+
+}
+
+.mailCon h3{
+    
+margin-left: 1vw;
+font-size: 1.5vw;
+position: relative;
+bottom: 1.3vw;
+
+}
+
+.mail{
+
+width: 5vw;
+height: 5vw;
+
+}
+
+
+#gmail{
+
+    font-family: monospace;
+    margin-left: 34vw;
+    font-size: 1vw;  
+    margin-top: -2.5vw;
+
+}
+
+.phoneCon{
+
+display: flex;
+margin-top: -5vw;
+margin-left: 2vw;
+
+}
+
+.phoneCon img{
+
+width: 6vw;
+height: 5vw;   
+
+}
+
+.phoneCon h3{
+
+    position: relative;
+    bottom: 1vw;
+
+}
+
+#number{
+
+margin-left: 8vw;
+font-family: monospace;
+font-family: .1vw;
+margin-top: -2.5vw;
+
+
+}
+
+.copyrightCon{
+
+    display: flex;
+   
+
+}
+
+.copyrightCon img{
+
+height: 4vw;
+margin-left: 55vw;
+margin-top: -4.5vw;
+
+}
+
+.copyrightCon p{
+
+margin-top: -3.5vw;    
+margin-left: 1vw;
+
+}
+
+.logo{
+
+display: flex;    
+justify-content: flex-end;
+
+}
+
+.logo img{
+
+display: flex;    
+height: 8vw;
+width: 8vw;
+margin-right: 4vw;
+margin-top: -6.7vw;
+
+}
+
+.bar {
+    width           : 3px;
+    height          : 2vw;
+    border-radius   : 30%;
+    background-color: red;
+}
+
+.dots {
+    display         : flex;
+    background-color: white;
+    margin-top      : -1vw;
+    padding         : 1vw;
+}
+
+.bdots a {
+    text-decoration: none;
+}
+
+.CU {
+    margin-left: 60vw;
+}
+
+.bdots p {
+    color      : white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size  : 1vw;
+    position   : relative;
+    bottom     : 6vw;
+}
+
+.bdot1:hover {
+    transform : translateY(-2.5vw);
+    transition: ease-in-out 250ms;
+}
+
+.bdot1:hover+.AM {
+    transform : translateY(-2.5vw);
+    bottom    : 6vw;
+    transition: ease-in-out 250ms;
+}
+
+.bdot3:hover {
+    transform : translateY(-2.5vw);
+    transition: ease-in-out 250ms;
+}
+
+.bdot3:hover+.MI {
+    transform : translateY(-2.5vw);
+    bottom    : 6vw;
+    transition: ease-in-out 250ms;
+}
+
+.bdot2:hover {
+    transform : translateY(-2.5vw);
+    transition: ease-in-out 250ms;
+}
+
+.bdot2:hover+.MS {
+    transform : translateY(-2.5vw);
+    bottom    : 6vw;
+    transition: ease-in-out 250ms;
+}
+
+.AM {
+    margin-left: 57.5vw;
+    transition : ease-in-out 250ms;
+}
+
+.MS {
+    margin-left: 67.2vw;
+    transition : ease-in-out 250ms;
+}
+
+.MI {
+    margin-left: 76.5vw;
+    transition : ease-in-out 200ms;
+}
+
+.bdot1 {
+    height          : 9vw;
+    width           : 9vw;
+    background-color: #56b4da;
+    border-radius   : 100%;
+    margin-left     : 55vw;
+    transition      : ease-in-out 250ms;
+    position        : relative;
+}
+
+.bdot2 {
+    height          : 9vw;
+    width           : 9vw;
+    background-color: rgb(255, 13, 96);
+    border-radius   : 100%;
+    margin-left     : 65vw;
+    margin-top      : -12.2vw;
+    transition      : ease-in-out 250ms;
+    position        : relative;
+}
+
+.bdot3 {
+    height          : 9vw;
+    width           : 9vw;
+    background-color: yellowgreen;
+    border-radius   : 100%;
+    margin-left     : 75vw;
+    margin-top      : -12.2vw;
+    transition      : ease-in-out 250ms;
+    position        : relative;
+}
+
+h2 {
+    margin-left: 60vw;
+    font-size  : 4vw;
+    color      : rgb(90, 84, 84);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-top : -25vw;
+}
+
+.bit {
+    color      : black;
+    font-size  : 2.5vw;
+    font-weight: lighter;
+    margin-top : -3vw;
+}
+
+.l1 {
+    /*box-shadow: -9px 0 50px red , 9px -9px  50px blue  ;  */
+    border       : solid indianred;
+    border-radius: 100%;
+    height       : 25vw;
+    margin-left  : 20vw;
+    margin-top   : 2vw;
+}
+
+.tags a {
+    color          : gray;
+    font-weight    : bold;
+    font-family    : monospace;
+    text-decoration: none;
+    margin-right   : 10px;
+    font-size      : 1vw;
+    position       : relative;
+    top            : 3vw;
+    transition     : ease-out 200ms;
+}
+
+.tags a:hover {
+    text-decoration: underline;
+    color          : lightcoral;
+    transition     : ease-out 200ms;
+}
+
+h1 {
+    margin-right: 50vw;
+    position    : relative;
+    bottom      : 3vw;
+    font-size   : 3vw;
+    margin-left : 20vw;
+    font-family : Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight : bolder;
+}
+
+.profile p,
+h1 {
+    margin-top: 3vw;
+}
+
+.profile p {
+    font-size  : 1vw;
+    margin-left: 26.5vw;
+    margin-top : -4.5vw;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.dot {
+    background-color: lightgray;
+    height          : 0.8vw;
+    width           : 0.8vw;
+    border-radius   : 100%;
+    margin-top      : 1vw;
+    margin-right    : 5px;
+}
+
+/* special styling for desktop* -----------------------------------------------------------------------------------------------  */
+
+@media only screen and (min-width: 780px) {
+    .bdot1 {
+        background-color: rgb(209, 203, 203);
+    }
+
+    .bdot2 {
+        background-color: rgb(209, 203, 203);
+    }
+
+    .bdot3 {
+        background-color: rgb(209, 203, 203);
+    }
+
+    .bdots p {
+        color: black;
+    }
+
+    .bdot1:hover {
+        background-color: #56b4da;
+    }
+
+    .bdot1:hover+.AM {
+        color: white;
+    }
+
+    .bdot3:hover {
+        background-color: yellowgreen;
+    }
+
+    .bdot3:hover+.MI {
+        color: white;
+    }
+
+    .bdot2:hover {
+        background-color: rgb(255, 13, 96);
+    }
+
+    .bdot2:hover+.MS {
+        color: white;
+    }
+}
+
+/* special styling for tablets */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .CU {
+        margin-left: 53vw;
+        margin-top : -2vw;
+    }
+
+    .tags a {
+        margin-right: 1.4vw;
+        font-size   : 1.4vw;
+        top         : 7vw;
+    }
+
+    .l1 {
+        margin-top : 3vw;
+        margin-left: 10vw;
+        height     : 27vw;
+    }
+
+    h1 {
+        margin-top   : 5vw;
+        font-size    : 4.5vw;
+        margin-left  : 4vw;
+        margin-bottom: 0;
+    }
+
+    .profile p {
+        font-size  : 1.4vw;
+        margin-top : -2.5vw;
+        margin-left: 16vw;
+    }
+
+    h2 {
+        margin-top : -30vw;
+        font-size  : 6vw;
+        margin-left: 50vw;
+    }
+
+    .bit {
+        font-size : 3vw;
+        margin-top: -5vw;
+    }
+
+    .bdot1 {
+        height     : 14vw;
+        width      : 14vw;
+        margin-left: 45vw;
+    }
+
+    .bdot2 {
+        height     : 14vw;
+        width      : 14vw;
+        margin-top : -19vw;
+        margin-left: 61vw;
+    }
+
+    .bdots p {
+        font-size: 1.5vw;
+        bottom   : 9vw;
+    }
+
+    .AM {
+        margin-left: 48.5vw;
+    }
+
+    .MS {
+        margin-left: 64.5vw;
+    }
+
+    .bdot3 {
+        height     : 14vw;
+        width      : 14vw;
+        margin-left: 77vw;
+        margin-top : -19vw;
+    }
+
+    .MI {
+        margin-left: 78.5vw;
+    }
+}
+
+/* styling for MOBILE -----------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+    .tags a {
+        font-size   : 2.3vw;
+        margin-right: 10px;
+        font-weight : bold;
+    }
+
+    .CU {
+        margin-left: 21vw;
+    }
+
+    .GP {
+        border-left-width : 0.5px;
+        border-right-width: 0.5px;
+    }
+
+    h1 {
+        bottom      : 0;
+        top         : 5vw;
+        left        : 2.5vw;
+        font-size   : 5vw;
+        margin-right: 20vw;
+        margin-left : 26vw;
+    }
+
+    .l1 {
+        margin-top : 10vw;
+        margin-left: 35vw;
+        height     : 28vw;
+    }
+
+    .profile p {
+        margin-top   : 4.5vw;
+        margin-bottom: -4.5vw;
+        margin-left  : 29.5vw;
+        font-size    : 2vw;
+    }
+
+    h2 {
+        margin-top : 5.5vw;
+        margin-left: 0vw;
+        text-align : center;
+        font-size  : 7vw;
+    }
+
+    .bit {
+        font-size : 4.3vw;
+        margin-top: -5vw;
+    }
+
+
+    .bdots{
+
+display: none;
+
+    }
+ 
+}
