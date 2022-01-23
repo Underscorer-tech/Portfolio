@@ -25,6 +25,59 @@ body {
     text-decoration: underline;
 }
 
+.skillcon{
+
+margin-top: -5vw;    
+background-color: black;
+margin-left:1vw;
+border-radius: 10px;
+margin-right: 1vw;
+box-shadow      : 1vw 1vw 1vw 0.2vw grey, -1vw -1vw 2vw 0.2vw grey;
+
+}
+div.contactcon{
+
+margin-bottom:-1cm
+
+}
+
+.myskill h3{
+
+color: white;    
+font-family: "Freestyle Script";
+font-size: 10vw ;
+margin-top:6vw;
+padding: 6vw;
+
+}
+
+.para3{
+
+color: white;
+font-family: "Freestyle Script";
+font-size:5vw;
+line-height: 1vw;
+margin-top: -10vw;
+position: relative;
+bottom: 10vw;
+text-align: right;
+margin-right: 2vw;
+
+}
+
+.line3{
+
+    background-color: transparent;
+    width           : 5vw;
+    height          : 18.5vw;
+    border-right    : solid black;
+    position        : relative;
+    margin-top:-28vw;
+    bottom: 3vw;
+    margin-left:32vw;
+    border-right: solid white;
+}
+
 @keyframes arrow1 {
 
     0% {
