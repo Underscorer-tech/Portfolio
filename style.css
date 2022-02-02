@@ -3,8 +3,7 @@ html {
     scroll-behavior: smooth;
 
 }
-
-@import url(//db.onlinewebfonts.com/c/50eafd25cbb5f88fe7bb5cc77421bb49?family=Freestyle+Script);
+@font-face {font-family: "Freestyle Script"; src: url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.eot"); src: url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.woff") format("woff"), url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/50eafd25cbb5f88fe7bb5cc77421bb49.svg#Freestyle Script") format("svg"); }
 
 body {
     margin          : 0;
@@ -59,11 +58,11 @@ color: white;
 font-family: "Freestyle Script";
 font-size:5vw;
 line-height: 1vw;
-margin-top: -10vw;
+margin-top: -13.7vw;
 position: relative;
 bottom: 10vw;
-text-align: right;
-margin-right: 2vw;
+text-align: left;
+margin-left: 45vw;
 
 }
 
@@ -193,10 +192,10 @@ border-radius: 10px;
 .interestp{
 
     font-family: 'Freestyle Script';
-    font-size  : 4vw;
+    font-size  : 4.5vw;
     font-weight: bold;
     line-height: 0.5vw;
-    margin-right: 30vw;
+    margin-right: 33vw;
     margin-top:-40vw;
     position: relative;
     bottom:11vw;
