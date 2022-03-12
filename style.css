@@ -18,16 +18,9 @@ body {
     padding-right: 12px;
 }
 
-.scroll p {
-    color          : coral;
-    font-size      : 3vw;
-    font-family    : forte;
-    text-align     : center;
-    text-decoration: underline;
-}
 
 .skillcon{
-
+    
 margin-top: -5vw;    
 background-color: black;
 margin-left:1vw;
@@ -42,13 +35,22 @@ margin-bottom:-1cm
 
 }
 
+.aboutmediv{
+
+position: relative;
+bottom: 1vw;
+
+
+}
+
 .myskill h3{
 
 color: white;    
 font-family: "Freestyle Script";
-font-size: 10vw ;
-margin-top:6vw;
+font-size: 10vw;
 padding: 6vw;
+position: relative;
+top:2vw
 
 }
 
@@ -58,9 +60,9 @@ color: white;
 font-family: "Freestyle Script";
 font-size:5vw;
 line-height: 1vw;
-margin-top: -13.7vw;
+margin-top: -13vw;
 position: relative;
-bottom: 10vw;
+bottom: 9vw;
 text-align: left;
 margin-left: 45vw;
 
@@ -74,9 +76,10 @@ margin-left: 45vw;
     border-right    : solid black;
     position        : relative;
     margin-top:-28vw;
-    bottom: 3vw;
+    bottom: 1vw;
     margin-left:32vw;
     border-right: solid white;
+
 }
 
 @keyframes arrow1 {
@@ -140,6 +143,26 @@ border-radius: 10px;
 
 }
 
+.arrow2{
+
+
+    animation-name           : arrow1;
+    animation-duration       : 3s;
+    animation-iteration-count: infinite;
+    background-color         : transparent;
+    width                    : 3vw;
+    height                   : 3vw;
+    margin                   : auto;
+    transform                : rotate(-45deg);
+    position                 : relative;
+    border-left              : solid coral;
+    border-bottom            : solid coral;
+    margin-top:-1.5vw;
+
+
+}
+
+
 
 .aboutp {
 
@@ -161,9 +184,10 @@ border-radius: 10px;
     margin-left     : 1vw;
     border-radius   : 10px;
     margin-right    : 1vw;
-    box-shadow      : 1vw 1vw 1vw 0.2vw grey, -1vw -1vw 2vw 0.2vw grey;
+    box-shadow      : 1vw 1vw 1vw 0.2vw grey, -1vw -1.2vw 2vw 0.2vw grey;
 
 }
+
 
 
 .aboutmepara h3 {
@@ -462,10 +486,10 @@ h2 {
 }
 
 .l1 {
-    /*box-shadow: -9px 0 50px red , 9px -9px  50px blue  ;  */
-    border       : solid indianred;
-    border-radius: 100%;
-    height       : 25vw;
+    box-shadow: 1.5vw 1.5vw 1px 0 rgb(241, 173, 173) , -1.5vw -1.5vw 1px 0 rgb(245, 212, 150) ;  
+    border: solid 3px white;
+    border-radius: 10%;
+    height       : 23vw;
     margin-left  : 20vw;
     margin-top   : 2vw;
 }
