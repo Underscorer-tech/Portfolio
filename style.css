@@ -1,8 +1,10 @@
 html {
 
     scroll-behavior: smooth;
-
+    scrollbar-width: 0; 
 }
+
+
 @font-face {font-family: "Freestyle Script"; src:url('Freestyle Script Regular.ttf')}
 
 body {
@@ -489,7 +491,7 @@ h2 {
     box-shadow: 1.5vw 1.5vw 1px 0 rgb(241, 173, 173) , -1.5vw -1.5vw 1px 0 rgb(245, 212, 150) ;  
     border: solid 3px white;
     border-radius: 10%;
-    height       : 23vw;
+    height       : 22vw;
     margin-left  : 20vw;
     margin-top   : 2vw;
 }
